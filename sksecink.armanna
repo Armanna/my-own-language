@@ -1,6 +1,0 @@
-import shell
-import os
-
-my_file = 'shell.py'
-base = os.path.splitext(my_file)[0]
-os.rename(my_file, base + '.armanna')
